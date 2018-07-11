@@ -6,7 +6,7 @@ extern const NSInteger BLUR_TOPBAR_TAG;
 
 - (void)applyOn:(UIViewController *)viewController {
 	if (self.currentTabIndex) {
-		[viewController.tabBarController setSelectedIndex:[self.currentTabIndex unsignedIntegerValue]];
+		//[viewController.tabBarController setSelectedIndex:[self.currentTabIndex unsignedIntegerValue]];
 	}
 	
 	if (self.currentTabId) {
